@@ -2,7 +2,7 @@ name: Build and deploy Aseprite
 
 on:
   schedule:
-    - cron: '1-7'
+    - cron: 'SUN-SAT , - * ? / L C # '
   push:
     branches:
       - master
